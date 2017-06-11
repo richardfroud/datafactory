@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.fluttercode.datafactory.raf</groupId>
 	<artifactId>datafactory</artifactId>
-	<version>0.13-SNAPSHOT</version>
+	<version>0.13</version>
 
 	<name>DataFactory</name>
 	<description>Library to generate data for testing</description>
@@ -27,7 +27,7 @@
       <connection>scm:git:ssh://git@github.com/richardfroud/datafactory.git</connection>
       <developerConnection>scm:git:ssh://git@github.com/richardfroud/datafactory.git</developerConnection>
       <url>https://github.com/richardfroud/datafactory.git</url>
-      <tag>HEAD</tag>
+      <tag>datafactory-0.13</tag>
    </scm> 
 
    <ciManagement>
