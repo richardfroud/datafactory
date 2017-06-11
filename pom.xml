@@ -37,14 +37,14 @@
 
    <distributionManagement>
       <repository>
-         <id>deploymentRepoReleases</id>
+         <id>nexusRepoReleases</id>
          <name>Releases (Nexus)</name>
-         <url>http://nexus.office.wildthymesoftware.com:8081/nexus/content/repositories/releases/</url>
+         <url>http://nexus.wildthymesoftware.com:8081/content/repositories/releases/</url>
       </repository>      
       <snapshotRepository>
-         <id>deploymentRepoSnapshots</id>
+         <id>nexusRepoSnapshots</id>
          <name>Snapshot Releases (Nexus)</name>
-         <url>http://nexus.office.wildthymesoftware.com:8081/nexus/content/repositories/snapshots/</url>
+         <url>http://nexus.wildthymesoftware.com:8081/content/repositories/snapshots/</url>
       </snapshotRepository>
    </distributionManagement>
 
