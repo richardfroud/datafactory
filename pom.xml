@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.fluttercode.datafactory.raf</groupId>
 	<artifactId>datafactory</artifactId>
-	<version>0.14-SNAPSHOT</version>
+	<version>0.15-SNAPSHOT</version>
 
 	<name>DataFactory</name>
 	<description>Library to generate data for testing</description>
@@ -39,7 +39,7 @@
       <repository>
          <id>nexusRepoReleases</id>
          <name>Releases (Nexus)</name>
-         <url>http://nexus.wildthymesoftware.com:8081/content/repositories/releases/</url>
+         <url>https://nexus.wildthymesoftware.com/content/repositories/releases/</url>
       </repository>      
       <snapshotRepository>
          <id>nexusRepoSnapshots</id>
