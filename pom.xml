@@ -32,21 +32,21 @@
 
    <ciManagement>
       <system>jenkins</system>
-      <url>http://jenkins.office.wildthymesoftware.com:8082</url>
+      <url>http://jenkins.wildthymesoftware.com</url>
    </ciManagement>
 
-   <distributionManagement>
-      <repository>
-         <id>nexusRepoReleases</id>
-         <name>Releases (Nexus)</name>
-         <url>https://nexus.wildthymesoftware.com/content/repositories/releases/</url>
-      </repository>      
-      <snapshotRepository>
-         <id>nexusRepoSnapshots</id>
-         <name>Snapshot Releases (Nexus)</name>
-         <url>http://nexus.wildthymesoftware.com:8081/content/repositories/snapshots/</url>
-      </snapshotRepository>
-   </distributionManagement>
+    <distributionManagement>
+        <repository>
+            <id>office-nexus</id>
+            <name>Releases (Nexus)</name>
+            <url>https://nexus2.wildthymesoftware.com/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>office-nexus</id>
+            <name>Snapshot Releases (Nexus)</name>
+            <url>https://nexus2.wildthymesoftware.com/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 	<dependencies>
 		<dependency>
